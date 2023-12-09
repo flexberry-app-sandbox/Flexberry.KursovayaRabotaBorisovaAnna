@@ -1,0 +1,1 @@
+docker-compose -p kursovaya_rabota_borisova_anna-java up -d

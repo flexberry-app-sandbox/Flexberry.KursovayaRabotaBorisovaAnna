@@ -1,0 +1,4 @@
+import IISKursovaya_rabota_Borisova_AnnaсотрудникEController from '../i-i-s-kursovaya-rabota-borisova-anna-сотрудник-e';
+
+var IISKursovaya_rabota_Borisova_AnnaсотрудникENewController = IISKursovaya_rabota_Borisova_AnnaсотрудникEController;
+export default IISKursovaya_rabota_Borisova_AnnaсотрудникENewController;

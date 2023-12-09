@@ -1,0 +1,89 @@
+﻿{
+  "applicationCaption": "Kursovaya_rabota_ borisova_ anna",
+  "applicationTitle": "Kursovaya_rabota_ borisova_ anna",
+  "items": [
+    {
+      "link": null,
+      "menuName": "справочник-услуги",
+      "caption": "Справочник услуги",
+      "title": "Справочник услуги",
+      "children": [
+        {
+          "link": "i-i-s-kursovaya-rabota-borisova-anna-услуга-l",
+          "menuName": null,
+          "caption": "Услуга",
+          "title": "Услуга",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "справочник-товары",
+      "caption": "Справочник товары",
+      "title": "Справочник товары",
+      "children": [
+        {
+          "link": "i-i-s-kursovaya-rabota-borisova-anna-товар-l",
+          "menuName": null,
+          "caption": "Товар",
+          "title": "Товар",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "справочник-сотрудники",
+      "caption": "Справочник сотрудники",
+      "title": "Справочник сотрудники",
+      "children": [
+        {
+          "link": "i-i-s-kursovaya-rabota-borisova-anna-сотрудник-l",
+          "menuName": null,
+          "caption": "сотрудник",
+          "title": "Сотрудник",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kursovaya-rabota-borisova-anna-должности-l",
+          "menuName": null,
+          "caption": "Должности",
+          "title": "Должности",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "справочник-клиенты",
+      "caption": "Справочник клиенты",
+      "title": "Справочник клиенты",
+      "children": [
+        {
+          "link": "i-i-s-kursovaya-rabota-borisova-anna-клиент-l",
+          "menuName": null,
+          "caption": "Клиент",
+          "title": "Клиент",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "запись-на-визит",
+      "caption": "Запись на визит",
+      "title": "Запись на визит",
+      "children": [
+        {
+          "link": "i-i-s-kursovaya-rabota-borisova-anna-визит-l",
+          "menuName": null,
+          "caption": "Визит",
+          "title": "Визит",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Должности",
+  "name": "IISKursovaya_rabota_Borisova_AnnaДолжностиE",
+  "className": "ДолжностиE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-rabota-borisova-anna-должности",
+      "modelProjection": "ДолжностиE"
+    }
+  ]
+}

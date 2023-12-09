@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kursovaya-rabota-borisova-anna-визит-e",
+  "editForm": "i-i-s-kursovaya-rabota-borisova-anna-визит-e",
+  "external": false,
+  "caption": "Визит",
+  "name": "IISKursovaya_rabota_Borisova_AnnaВизитL",
+  "className": "ВизитL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-rabota-borisova-anna-визит",
+      "modelProjection": "ВизитL"
+    }
+  ]
+}

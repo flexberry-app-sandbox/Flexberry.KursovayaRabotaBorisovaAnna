@@ -1,0 +1,96 @@
+﻿{
+  "name": "IISKursovaya_rabota_Borisova_AnnaТовар",
+  "modelName": "i-i-s-kursovaya-rabota-borisova-anna-товар",
+  "className": "Товар",
+  "nameSpace": "IIS.Kursovaya_rabota_Borisova_Anna",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "кодМатериала",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "наименование",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "производитель",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ТоварE",
+      "modelName": "i-i-s-kursovaya-rabota-borisova-anna-товар",
+      "attrs": [
+        {
+          "name": "наименование",
+          "caption": "Производитель",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "кодМатериала",
+          "caption": "Код материала",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "производитель",
+          "caption": "Наименование",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ТоварL",
+      "modelName": "i-i-s-kursovaya-rabota-borisova-anna-товар",
+      "attrs": [
+        {
+          "name": "наименование",
+          "caption": "Производитель",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "кодМатериала",
+          "caption": "Код материала",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "производитель",
+          "caption": "Наименование",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

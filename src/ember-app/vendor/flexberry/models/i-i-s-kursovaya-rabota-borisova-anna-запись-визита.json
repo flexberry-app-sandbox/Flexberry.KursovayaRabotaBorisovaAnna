@@ -1,0 +1,77 @@
+﻿{
+  "name": "IISKursovaya_rabota_Borisova_AnnaЗаписьВизита",
+  "modelName": "i-i-s-kursovaya-rabota-borisova-anna-запись-визита",
+  "className": "ЗаписьВизита",
+  "nameSpace": "IIS.Kursovaya_rabota_Borisova_Anna",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "комментарий",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "стоимость",
+      "type": "decimal",
+      "flexberryType": "double",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "сотрудник",
+      "relatedTo": "i-i-s-kursovaya-rabota-borisova-anna-сотрудник",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "услуга",
+      "relatedTo": "i-i-s-kursovaya-rabota-borisova-anna-услуга",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "визит",
+      "relatedTo": "i-i-s-kursovaya-rabota-borisova-anna-визит",
+      "inverse": "записьВизита"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ЗаписьВизитаE",
+      "modelName": "i-i-s-kursovaya-rabota-borisova-anna-запись-визита",
+      "attrs": [
+        {
+          "name": "стоимость",
+          "caption": "Стоимость",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "комментарий",
+          "caption": "Комментарий",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

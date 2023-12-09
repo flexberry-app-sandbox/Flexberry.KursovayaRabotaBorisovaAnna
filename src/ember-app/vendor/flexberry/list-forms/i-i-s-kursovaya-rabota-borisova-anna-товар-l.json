@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kursovaya-rabota-borisova-anna-товар-e",
+  "editForm": "i-i-s-kursovaya-rabota-borisova-anna-товар-e",
+  "external": false,
+  "caption": "Товар",
+  "name": "IISKursovaya_rabota_Borisova_AnnaТоварL",
+  "className": "ТоварL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-rabota-borisova-anna-товар",
+      "modelProjection": "ТоварL"
+    }
+  ]
+}

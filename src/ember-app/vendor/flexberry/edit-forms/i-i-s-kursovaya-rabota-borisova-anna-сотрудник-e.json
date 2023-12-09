@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Сотрудник",
+  "name": "IISKursovaya_rabota_Borisova_AnnaсотрудникE",
+  "className": "сотрудникE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-rabota-borisova-anna-сотрудник",
+      "modelProjection": "сотрудникE"
+    }
+  ]
+}

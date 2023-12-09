@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kursovaya-rabota-borisova-anna-услуга-e",
+  "editForm": "i-i-s-kursovaya-rabota-borisova-anna-услуга-e",
+  "external": false,
+  "caption": "Услуга",
+  "name": "IISKursovaya_rabota_Borisova_AnnaУслугаL",
+  "className": "УслугаL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-rabota-borisova-anna-услуга",
+      "modelProjection": "УслугаL"
+    }
+  ]
+}
